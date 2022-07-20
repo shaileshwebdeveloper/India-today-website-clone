@@ -1,23 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import { Top } from './Header/Top';
+import { Divider } from '@chakra-ui/react';
+import { Logo } from './Header/Logo';
+import { Navbar } from './Header/Navbar';
+// import { Login } from './LoginPage/Login';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Top/>     
+      <Divider />    
+      <Logo/>
+      <Navbar/>
+      {/* <Login/> */}
     </div>
   );
 }
