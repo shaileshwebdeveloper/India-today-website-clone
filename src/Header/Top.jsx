@@ -1,4 +1,4 @@
-import { Button, Spacer, Stack } from '@chakra-ui/react'
+import { Button, Stack } from '@chakra-ui/react'
 import React from 'react'
 
 export const Top = () => {
