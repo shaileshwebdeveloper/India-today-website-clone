@@ -1,0 +1,12 @@
+.haha{
+background-color: black;
+color: grey;
+  display: flex;
+  height: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  align-items: center;
+  gap: 0.5rem;
+  padding-left: 100px;
+}
+

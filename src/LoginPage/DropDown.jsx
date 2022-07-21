@@ -8,16 +8,6 @@ import {
 } from '@chakra-ui/react';
 
 
-// const ListHeader = ({ children }: { children: ReactNode }) => {
-//     return (
-//       <Text fontWeight={'500'} fontSize={'lg'} mb={2}>
-//         {children}
-//       </Text>
-//     );
-//   };
-  
-
-
 export default function DropDown() {
   return (
     <Box
@@ -26,7 +16,6 @@ export default function DropDown() {
       <Container as={Stack} maxW={'5xl'} py={10}>
         <SimpleGrid columns={{ base: 1, sm: 2, md: 4 }} spacing={8}>
           <Stack align={'flex-start'}>
-            {/* <ListHeader>Company</ListHeader>      */}
             <Link href={'#'}>HEALTH</Link>
             <hr style={{border : "0.5px solid grey", width: "100%"}}/>
             <Link href={'#'}>TRENDING</Link>
@@ -42,7 +31,6 @@ export default function DropDown() {
           </Stack>
 
           <Stack align={'flex-start'}>
-            {/* <ListHeader>Support</ListHeader> */}
             <Link href={'#'}>CRIME</Link>
              <hr style={{border : "0.5px solid grey", width: "100%"}}/>
             <Link href={'#'}>LIFESTYLE</Link>
@@ -58,7 +46,6 @@ export default function DropDown() {
           </Stack>
 
           <Stack align={'flex-start'}>
-            {/* <ListHeader>Legal</ListHeader> */}
             <Link href={'#'}>HOROSCOPES</Link>
              <hr style={{border : "0.5px solid grey", width: "100%"}}/>
             <Link href={'#'}>FACT CHECK</Link>
@@ -74,7 +61,6 @@ export default function DropDown() {
           </Stack>
 
           <Stack align={'flex-start'}>
-            {/* <ListHeader>Legal</ListHeader> */}
             <Link href={'#'}>CODE OF ETHICS</Link>
              <hr style={{border : "0.5px solid grey", width: "100%"}}/>
             <Link href={'#'}>RATE CARD</Link>
