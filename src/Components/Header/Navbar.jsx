@@ -25,26 +25,21 @@ export const Navbar = () => {
 
   const {navigateSignIn} = useContext(AppContext)
 
-  // const navigateHome = () => {
-  //   // 👇️ navigate to /
-  //   navigate('/');
-  // };
-
 
   return (
 <div>
 <Flex bg="#a00606"  mt="30px" justifyContent="center">
 <Spacer/>
-<Button class ="nav" variant='outline' size='sm'>HOME</Button>
-<Button class ="nav"  variant='outline' size='sm'>MY FEED</Button>
-<Button class ="nav"  variant='outline' size='sm'>SRI LANKA CRISIS</Button>
-<Button class ="nav"  variant='outline' size='sm'>INDIA</Button>
-<Button class ="nav"  variant='outline' size='sm'>BUSINESS</Button>
-<Button class ="nav"  variant='outline' size='sm'>TECH</Button>
-<Button class ="nav"  variant='outline' size='sm'>MOVIES</Button>
-<Button class ="nav"  variant='outline' size='sm'>SPORTS </Button>
-<Button class ="nav"  variant='outline' size='sm'>SCIENCE</Button>
-<Button class ="nav"  variant='outline' size='sm'>BEST COLLEGES</Button>
+<Button class ="nav" background={"none"} size='sm' >HOME</Button>
+<Button class ="nav" background={"none"} size='sm' >MY FEED</Button>
+<Button class ="nav" background={"none"} size='sm' >SRI LANKA CRISIS</Button>
+<Button class ="nav" background={"none"} size='sm' >INDIA</Button>
+<Button class ="nav" background={"none"} size='sm' >BUSINESS</Button>
+<Button class ="nav" background={"none"} size='sm' >TECH</Button>
+<Button class ="nav" background={"none"} size='sm' >MOVIES</Button>
+<Button class ="nav" background={"none"} size='sm' >SPORTS </Button>
+<Button class ="nav" background={"none"} size='sm' >SCIENCE</Button>
+<Button class ="nav" background={"none"} size='sm' >BEST COLLEGES</Button>
 <Spacer/>
 
 <Button bg="none"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-distribute-vertical" viewBox="0 0 16 16" color='white' style={{position : "absolute"}} onClick={handleClick}> 

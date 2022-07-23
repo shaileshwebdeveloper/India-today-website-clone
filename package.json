@@ -11,6 +11,7 @@
     "@testing-library/user-event": "^13.5.0",
     "app-store-badge": "^1.2.0",
     "axios": "^0.27.2",
+    "bootstrap": "^5.2.0",
     "bootstrap-icons": "^1.9.1",
     "framer-motion": "^6.5.1",
     "react": "^18.2.0",

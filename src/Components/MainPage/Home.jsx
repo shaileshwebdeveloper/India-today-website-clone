@@ -1,6 +1,7 @@
 import { Divider } from '@chakra-ui/react'
 import React from 'react'
-// import Footer from '../Footer/Footer'
+import DarkMode from '../DarkMode'
+import Footer from '../Footer/Footer'
 import {Logo} from '../Header/Logo'
 import { Navbar } from '../Header/Navbar'
 import { Top } from '../Header/Top'
@@ -15,7 +16,7 @@ export const Home = () => {
       <Navbar/>
       <Main/>
       {/* <Login/> */}
-      {/* <Footer/> */}
+      <Footer/>
     </div>
   )
 }

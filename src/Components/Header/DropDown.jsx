@@ -4,24 +4,28 @@ import {
   Container,
   Stack,
   SimpleGrid,
-  Link, useColorModeValue
+  Link, useColorModeValue, useColorMode
 } from '@chakra-ui/react';
+import DarkMode from '../DarkMode';
+
+import './navbar.css'
 
 
-// const ListHeader = ({ children }: { children: ReactNode }) => {
-//     return (
-//       <Text fontWeight={'500'} fontSize={'lg'} mb={2}>
-//         {children}
-//       </Text>
-//     );
-//   };
-  
 
 
 export default function DropDown() {
+
+  const { colorMode, toggleColorMode } = useColorMode()
+
+   console.log(colorMode)
+   
+ 
+
+
   return (
     <Box
-      bg={useColorModeValue('gray.50', 'gray.900')}
+        className =  { colorMode === 'light'? 'above' : 'darkMode'}
+      // bg={useColorModeValue('blu')}
       color={useColorModeValue('gray.700', 'gray.200')}>
       <Container as={Stack} maxW={'5xl'} py={10}>
         <SimpleGrid columns={{ base: 1, sm: 2, md: 4 }} spacing={8}>
@@ -79,7 +83,7 @@ export default function DropDown() {
              <hr style={{border : "0.5px solid grey", width: "100%"}}/>
             <Link href={'#'}>RATE CARD</Link>
              <hr style={{border : "0.5px solid grey", width: "100%"}}/>
-            <Link href={'#'}>DARK MODE</Link>
+            <Link> <DarkMode/></Link>
              <hr style={{border : "0.5px solid grey", width: "100%"}}/>
              </Stack>
 

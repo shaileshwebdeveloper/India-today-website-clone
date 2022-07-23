@@ -6,6 +6,7 @@ import { AppContext } from '../AppContext'
 export const LoginTop = () => {
 
   const {navigateHome} = useContext(AppContext)
+  const {navigateSignUp} = useContext(AppContext)
 
 
   return (
@@ -18,7 +19,7 @@ export const LoginTop = () => {
     <Text fontSize='3xl' fontWeight="500" mt="20px">Sign in to India Today</Text>
     <Flex justifyContent="center" mt="-10px">
     <Text fontSize='lg' m="20px">Don't have an account?</Text>
-    <Text fontSize='lg' m="20px" color="red" fontWeight="500">Sign Up Now »</Text>
+    <Text fontSize='lg' m="20px" color="red" fontWeight="500" onClick={navigateSignUp}  cursor='po'>Sign Up Now »</Text>
     </Flex>
 
 
