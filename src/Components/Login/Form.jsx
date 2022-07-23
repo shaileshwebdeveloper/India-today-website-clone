@@ -1,7 +1,19 @@
 import { FormControl, Input, Flex, Text, Button } from "@chakra-ui/react";
 import React from "react";
+import { useNavigate } from "react-router-dom";
+
+
 
 export const Form = () => {
+
+  const navigate = useNavigate();
+
+  const Signin = () => {
+    alert('Successfully logged In')
+    navigate('/');
+    
+  }
+
   return (
     <div>
       <FormControl>
@@ -58,6 +70,7 @@ export const Form = () => {
             padding: "20px  60px",
             margin: "30px 0px",
           }}
+          onClick = {Signin}
         >
           <Text fontSize="2xl">Log in</Text>
         </Button>

@@ -52,7 +52,7 @@ const pageChange = (e) => {
 
     
   return (
-  <div style={{marginBottom : "100px"}}>
+  <div style={{marginBottom : "100px"}} className="below">
   <SimpleGrid columns={2} spacing={10} margin="50px">
   <Box height='auto' width={"120%"} ml="90px">
   <Text fontSize='lg' align={"left"}>News/India</Text>

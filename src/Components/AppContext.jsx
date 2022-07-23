@@ -12,6 +12,11 @@ export const AppContextProvider = ({ children }) => {
         navigate('/sign-in');
       };
     
+      const navigateSignUp = () => {
+        // 👇️ navigate to /
+        navigate('/sign-up');
+      };
+
       const navigateHome = () => {
         // 👇️ navigate to /
         navigate('/');
@@ -21,7 +26,7 @@ export const AppContextProvider = ({ children }) => {
 
 
   return (
-    <AppContext.Provider value={{navigateHome, navigateSignIn}}>
+    <AppContext.Provider value={{navigateHome, navigateSignIn, navigateSignUp}}>
       {children}
     </AppContext.Provider>
   );

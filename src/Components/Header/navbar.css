@@ -5,3 +5,22 @@
     padding: 5px 5px;
 }
 
+.above{
+    position: absolute;
+    z-index: 9;
+    background: white;
+    color: black;
+    width: 100%;
+ }
+
+ .darkMode{
+    position: absolute;
+    z-index: 9;
+    background: black;
+    color: white;
+    width: 100%;
+
+ }
+
+
+
