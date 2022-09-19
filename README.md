@@ -36,3 +36,7 @@ This is a netmeds website clone project made during construct week at Masai.
 </br>
 ⚡️ JavaScript
 </br>
+
+# Demo Link 
+
+➡  https://india-today-project.vercel.app/
