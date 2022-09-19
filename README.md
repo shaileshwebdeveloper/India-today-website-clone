@@ -1,6 +1,6 @@
 # Netmeds Website Clone
 
-![image](https://user-images.githubusercontent.com/91751062/191099696-c49c0d5f-128f-4481-8a8c-6cbb6e38298e.png)
+![image](https://user-images.githubusercontent.com/91751062/191100923-4a836dd9-14ba-4b5e-9562-0058ef2d769a.png)
 
 
 Why is this? ☝️
