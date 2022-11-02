@@ -1,11 +1,11 @@
-# Netmeds Website Clone
+# India Today Website Clone
 
 ![image](https://user-images.githubusercontent.com/91751062/191100923-4a836dd9-14ba-4b5e-9562-0058ef2d769a.png)
 
 
 Why is this? ☝️
 </br>
-This is a netmeds website clone project made during construct week at Masai.
+India Today is a news platform website of India today group.
 </br>
 
 
