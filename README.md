@@ -1,11 +1,12 @@
 # India Today Website Clone
 
-![image](https://user-images.githubusercontent.com/91751062/191100923-4a836dd9-14ba-4b5e-9562-0058ef2d769a.png)
+![image](https://user-images.githubusercontent.com/91751062/202104887-c495ea37-1176-4847-8f86-21077cddc6bf.png)
 
 
-Why is this? ☝️
+What is this? ☝️
 </br>
-India Today is a news platform website of India today group.
+Techkart is leading E-commerce platforms selling a wide range of consumer electronic gadgets. Anyone can buy product from the techkart with fast global shipping!
+This was a collabartive project with 5 team members successfully completed in 5 days.
 </br>
 
 
@@ -16,27 +17,40 @@ India Today is a news platform website of India today group.
 </br>
 ⚡️ Homepage With Navbar & Footer
 </br>
-⚡️ Signup Page
+⚡️ Signup/Login Using Backend Databse
 </br>
-⚡️ New Page With Pagination
+⚡️ Product Categories With Pagination
 </br>
 ⚡️ Drop-Down Menu & Dark-light Mode
 </br>
+⚡️ Add to Cart & Payment Gateway page
+</br>
+
 
 
 # 🎯 Tech-Stacks
 
-⚡️ HTML
-</br>
-⚡️ CSS
-</br>
+<h2>Frontend</h2>
+
 ⚡️ React
 </br>
 ⚡️ Chakra-Ui
 </br>
 ⚡️ JavaScript
 </br>
+⚡️ CSS
+</br>
+
+<h2>Backend</h2>
+
+⚡️ Node Js
+</br>
+⚡️ Express
+</br>
+⚡️ MongoDB 
+</br>
+
 
 # Demo Link 
 
-➡  https://india-today-project.vercel.app/
+➡  https://tech-cart.vercel.app/
