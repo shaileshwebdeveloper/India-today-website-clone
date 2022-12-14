@@ -26,22 +26,22 @@ const pageChange = (e) => {
 
  useEffect(() => {
 
-  axios.get(`https://india-today-api.herokuapp.com/news?_page=${page}&_limit=12`)
+  axios.get(`https://project-api-ytxm.onrender.com/indianews?_page=${page}&_limit=12`)
   .then(res => {
     setData(res.data)
   })
 
-  axios.get("https://india-today-sidebar.herokuapp.com/Read")
+  axios.get("https://project-api-ytxm.onrender.com/readsidebar")
   .then(res => {
     setRead(res.data)
   })
 
-  axios.get("https://india-today-sidebar.herokuapp.com/watch")
+  axios.get("https://project-api-ytxm.onrender.com/watchsidebar")
   .then(res => {
     setWatch(res.data)
   })
 
-  axios.get("https://india-today-sidebar.herokuapp.com/top")
+  axios.get("https://project-api-ytxm.onrender.com/top")
   .then(res => {
     setTop(res.data)
   })
